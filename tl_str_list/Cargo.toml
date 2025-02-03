@@ -1,0 +1,11 @@
+[package]
+name = "tl_str_list"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Alexander Granin <graninas@gmail.com>"]
+description = "Type-level string (tl list of chars)"
+license = "MIT"
+repository = "https://github.com/graninas/type_level"
+
+[dependencies]

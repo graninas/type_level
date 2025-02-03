@@ -1,0 +1,12 @@
+[package]
+name = "tl_list_lib"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Alexander Granin <graninas@gmail.com>"]
+description = "Type-level kinded heterogeneous list for type-level programming in Rust"
+license = "MIT"
+repository = "https://github.com/graninas/type_level"
+
+[dependencies]
+tl_interface = { path = "../tl_interface" }

@@ -1,0 +1,16 @@
+[package]
+name = "tl_str_macro"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Alexander Granin <graninas@gmail.com>"]
+description = "Procedural macros for composing type-level string"
+license = "MIT"
+repository = "https://github.com/graninas/type_level"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0"   # For generating Rust code
+tl_str_list = { path = "../tl_str_list" }
