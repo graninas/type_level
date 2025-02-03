@@ -42,11 +42,17 @@ name = "tl_str_list"
 version = "0.1.0"
 
 [[package]]
+name = "tl_str_list"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d86a7cfffc70924587568102c393b59e5fb0d0dbff050e3639b7fb762a9839ff"
+
+[[package]]
 name = "tl_str_macro"
 version = "0.1.0"
 dependencies = [
  "quote",
- "tl_str_list",
+ "tl_str_list 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

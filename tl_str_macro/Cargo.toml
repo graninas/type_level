@@ -13,4 +13,4 @@ proc-macro = true
 
 [dependencies]
 quote = "1.0"   # For generating Rust code
-tl_str_list = { path = "../tl_str_list" }
+tl_str_list = "0.1.0"
