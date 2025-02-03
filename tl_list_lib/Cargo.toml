@@ -9,4 +9,4 @@ license = "MIT"
 repository = "https://github.com/graninas/type_level"
 
 [dependencies]
-tl_interface = { path = "../tl_interface" }
+tl_interface = "0.1.0"

@@ -25,10 +25,16 @@ name = "tl_interface"
 version = "0.1.0"
 
 [[package]]
+name = "tl_interface"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d5ad8b40ac9fbf1bfecc9b20d57ff0c0684ec49184abd8ffdb150050a4babc42"
+
+[[package]]
 name = "tl_list_lib"
 version = "0.1.0"
 dependencies = [
- "tl_interface",
+ "tl_interface 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
